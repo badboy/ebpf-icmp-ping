@@ -18,7 +18,7 @@ help:
 	@echo "  qdisc-delete   Delete the qdisc"
 
 bpf.o: bpf.c
-	clang -g -O2 -target bpf -I/usr/include/x86_64-linux-gnu -c $< -o $@
+	clang -O2 -target bpf -I/usr/include/x86_64-linux-gnu -c $< -o $@
 
 qdisc:
 	sudo tc qdisc add dev $(DEVICE) ingress handle ffff:
