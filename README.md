@@ -40,4 +40,4 @@ The code in [`bpf.c`](bpf.c) is commented to explain each step.
 
 ## Resources
 
-* [ebpf-trekking](https://github.com/muhammadzaheer/ebpf-trekking/blob/master/treks/ping_reply/ping_reply.py), an implementation using [bcc](https://github.com/iovisor/bcc/tree/master/docs)
+* [ebpf-trekking](https://github.com/muhammadzaheer/ebpf-trekking/blob/master/treks/ping_reply/ping_reply.py), an implementation using [bcc](https://github.com/iovisor/bcc)
