@@ -7,7 +7,7 @@ re-calculates the ICMP checksum and sends the modified packet back out over the 
 ## Requirements
 
 * A recent kernel. Tested with 4.8 and 4.9
-* `iproute2 v4.9`. v4.10 has a bug makig it unusable.
+* `iproute2 v4.9`. v4.10 has a bug making it unusable.
   If your system does not provide it,
   compile it from [git](https://wiki.linuxfoundation.org/networking/iproute2).
   Installation is not needed, the `tc` binary is enough.
